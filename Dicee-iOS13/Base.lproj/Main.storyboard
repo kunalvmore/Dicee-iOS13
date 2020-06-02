@@ -28,7 +28,6 @@
                                                 <rect key="frame" x="11" y="12.5" width="392" height="256"/>
                                             </imageView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
                                             <constraint firstItem="faV-eO-ebz" firstAttribute="centerX" secondItem="lxJ-TA-HEU" secondAttribute="centerX" id="WJT-If-T5b"/>
                                             <constraint firstItem="faV-eO-ebz" firstAttribute="centerY" secondItem="lxJ-TA-HEU" secondAttribute="centerY" id="ZTF-Un-5Ib"/>
@@ -49,7 +48,6 @@
                                                 </subviews>
                                             </stackView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
                                             <constraint firstItem="HMD-B8-dYA" firstAttribute="centerX" secondItem="GmY-iF-g9O" secondAttribute="centerX" id="Heg-2e-X1Z"/>
                                             <constraint firstItem="HMD-B8-dYA" firstAttribute="centerY" secondItem="GmY-iF-g9O" secondAttribute="centerY" id="rJK-K9-BSI"/>
@@ -59,8 +57,11 @@
                                         <rect key="frame" x="0.0" y="571.5" width="414" height="280.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EK8-f7-YBb">
-                                                <rect key="frame" x="183" y="116" width="48" height="48"/>
+                                                <rect key="frame" x="157" y="116" width="100" height="48"/>
                                                 <color key="backgroundColor" red="0.61481237411499023" green="0.10179672390222549" blue="0.10023083537817001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="biX-ld-ab7"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="Roll">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -70,7 +71,6 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
                                             <constraint firstItem="EK8-f7-YBb" firstAttribute="centerY" secondItem="uXk-Ef-KHO" secondAttribute="centerY" id="Bte-Ww-Kko"/>
                                             <constraint firstItem="EK8-f7-YBb" firstAttribute="centerX" secondItem="uXk-Ef-KHO" secondAttribute="centerX" id="Cmw-aC-VQN"/>
